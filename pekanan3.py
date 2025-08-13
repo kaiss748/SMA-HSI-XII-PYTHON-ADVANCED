@@ -10,7 +10,7 @@ try:
                 baris = baris.strip()
                 data_potongan = baris.split(',')
                 id_transaksi = data_potongan[0].strip(" ").upper()
-                nama_produk = data_potongan[1].title()
+                nama_produk = data_potongan[1].strip(" ").title()
                 jumlah = int(data_potongan[2].strip(" "))
                 harga_satuan = float(data_potongan[3].strip(" "))
                 total_harga = jumlah * harga_satuan
