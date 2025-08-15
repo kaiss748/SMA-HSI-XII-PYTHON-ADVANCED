@@ -15,5 +15,5 @@ with open("mbox-short.txt", 'r') as file:
             hari = kata[2]
 
             pesan_mingguan[hari] = pesan_mingguan.get(hari, 0) + 1
-print(f"dict =\n{pesan_mingguan}")
+print(f"dict :\n{pesan_mingguan}")
         
