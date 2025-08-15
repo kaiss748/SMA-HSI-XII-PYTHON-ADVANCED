@@ -15,7 +15,7 @@ biodata = {
 }
 
 #print(biodata["pekerjaan"])  #error: keyerror: "pekerjaan"
-pekerjaan = biodata.get("pekerjaan", "pelajar")
+pekerjaan = biodata.get("pekerjaan", "fisikawan")
 print(f"pekerjaan -> {pekerjaan}")
-biodata["pekerjaan"] = "pelajar"
+biodata["pekerjaan"] = "fisikawan"
 print(f"biodata update =\n{biodata}")
