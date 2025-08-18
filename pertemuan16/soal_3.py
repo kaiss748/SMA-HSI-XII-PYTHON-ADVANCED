@@ -21,4 +21,6 @@ daftar_product = {
 }
 
 prod2 = daftar_product["PROD002"]
-print(f"nama, harga dan stok dari 'PROD002' =\n{prod2}")
+print(f"nama = {prod2["nama"]}")
+print(f"harga = Rp {prod2["harga"]:,.2f}")
+print(f"stok = {prod2["stok"]}")
