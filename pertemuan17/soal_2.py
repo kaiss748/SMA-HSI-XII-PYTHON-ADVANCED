@@ -5,7 +5,9 @@ koordinat_baru yang nilainya (10, 25). Kamu tidak boleh mengubah koordinat_awal 
 langsung.
 """
 
-koordinat_awal = (10, 20)
-koordinat_baru = (koordinat_awal[0], 25)
+koordinat_awal = (10, 20, 30, 40 ,50)
+# koordinat_baru = (koordinat_awal[0], 25)
+koordinat_baru = koordinat_awal[:1] + (25,) + koordinat_awal[2:]
+# koordinat_baru = koordinat_awal[0] , ('25',) , koordinat_awal[2:]
 print(koordinat_baru)
 print(type(koordinat_baru))
