@@ -1,0 +1,14 @@
+--------------------------------------------------
+                UR POOLING RESULTS                
+--------------------------------------------------
+Python: 1 suara (33.33%)
+JavaScript: 0 suara (0.00%)
+Java: 0 suara (0.00%)
+C++: 0 suara (0.00%)
+Windows: 1 suara (33.33%)
+macOS: 0 suara (0.00%)
+Linux: 0 suara (0.00%)
+Liverpool: 1 suara (33.33%)
+LIVERPOOL: 0 suara (0.00%)
+LIVERpool: 0 suara (0.00%)
+liverPOOL: 0 suara (0.00%)

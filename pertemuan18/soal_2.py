@@ -31,7 +31,7 @@ class RekeningBank:
             print(f"Saldo kau ga cukup_-")
         else:
             self.jumlah_saldo -= jumlah_tarik
-            print(f"Kau berhasil narik duet: Rp {jumlah_tarik:,.2f}")
+            print(f"Kau berhasil narik duet: Rp {jumlah_tarik:,.2f} dari rekening si {self.nama_pemilik}")
 
 
 rekening_budie = RekeningBank("0203040506", "anthony budie")
