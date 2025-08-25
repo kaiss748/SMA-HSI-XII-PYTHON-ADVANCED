@@ -16,8 +16,11 @@ match = re.search(pola, no_telp)
 
 if match:
     if 10 <= len(no_telp) <= 13:
-        print("Nice, no telp lu valid dude!")
-        print(f"panjang no telp luh {len(no_telp)}")
+        if no_telp.startswith():
+            print("Nice, no telp lu valid dude!")
+            print(f"panjang no telp luh {len(no_telp)}")
+        else:
+            print("masukin no telpnya di awali 08")
     else:
         print("nah dude, no telp lu ga valid")
         print(f"panjang no telp luh {len(no_telp)}")

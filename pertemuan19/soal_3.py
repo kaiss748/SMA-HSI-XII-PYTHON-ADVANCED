@@ -11,7 +11,7 @@ import re
 teks = "python adalah bahasa yang menyenangkan, python mudah dipelajari."
 match = re.search('python', teks)
 # match = match.group()
-match1 = re.findall('python', teks)
+match1 = re.allfind('python', teks)
 
 print(f"hasil 'search': {match.group()}")
 print(f"hasil 'findall': {match1}")
