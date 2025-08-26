@@ -27,8 +27,8 @@ while jumlah_prima < 5:
             prima = False
             break
         
-        if prima:
+    if prima:
             print(angka)
             jumlah_prima +=1
-        angka += 1
+    angka += 1
 

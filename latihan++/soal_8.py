@@ -11,9 +11,10 @@ Contoh Output: Sy Bljr Pythn
 
 kalimat = input("Masukkan sebuah kalimat: ")
 output = ""
+vokal = "aiueo"
 
 for huruf in kalimat:
-    if huruf.lower() in "aiueo":
+    if huruf.lower() in vokal:
         continue
     output += huruf
 

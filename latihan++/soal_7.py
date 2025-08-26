@@ -13,7 +13,7 @@ Output yang diharapkan: Jumlah kuadrat dari 3 bilangan pertama adalah: 14 (karen
 N = int(input("masukkan sebuah angka N: "))
 angka = 1
 jumlah = 0
-while 1 <= N:
+while angka <= N:
     jumlah += angka**2
     angka += 1
 print(f"Jumlah kuadrat dari {N} bilangan pertama adalah: {jumlah}")
