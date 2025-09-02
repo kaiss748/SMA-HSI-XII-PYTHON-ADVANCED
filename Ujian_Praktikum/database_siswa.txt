@@ -1,0 +1,4 @@
+101,Budi Santoso,85;92;78
+102,Ani Lestari,95;88;91;100
+103,Charlie Wijaya,65;72
+104,Kaith Abigail,89;88;100
