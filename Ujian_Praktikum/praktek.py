@@ -20,8 +20,8 @@ def lihat_daftar_siswa(data_siswa):
     if not data_siswa:
         print("Belum ada data siswa.")
     else:
-        for nis, lengkap in data_siswa.items():
-            print(f"{nis}: {lengkap['nama']}")
+        for nis, nama in data_siswa.items():
+            print(f"{nis}: {nama['nama']}")
 
 def lihat_detail_siswa(data_siswa):
     nis = input("masukan NIS siswa: ")
@@ -63,7 +63,7 @@ def lihat_detail_siswa(data_siswa):
 def tambah_siswa_baru(data_siswa):
     nis = input("masukan NIS siswa: ").strip()
     if nis in data_siswa:
-        print("Nis sudah terdaftar")
+        print("NIS sudah terdaftar")
         return
     else:
         nama = input("Masukan nama lengkap: ")
